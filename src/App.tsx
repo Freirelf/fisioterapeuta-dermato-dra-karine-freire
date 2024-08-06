@@ -1,11 +1,22 @@
+import { useState } from 'react'
+
 import { Header } from './components/header'
 import { Home } from './components/home'
 
 export function App() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
+
+  const handleToggleMenu = (isOpen: boolean) => {
+    setIsMenuOpen(isOpen)
+  }
   return (
     <div>
-      <Header />
-      <Home />
+      <Header onToggleMenu={handleToggleMenu} />
+      <main
+        className={`transition-all duration-0 ease-in-out ${isMenuOpen ? 'pt-60' : 'pt-0'}`}
+      >
+        <Home />
+      </main>
     </div>
   )
 }
