@@ -18,11 +18,11 @@ export function Home() {
         className="absolute hidden lg:bottom-6 lg:left-80 lg:block"
       />
 
-      <div className="flex w-full max-w-[985px] flex-col items-center gap-5 pt-10 lg:w-[1100px] lg:items-start">
+      <div className="z-50 flex w-full max-w-[985px] flex-col items-center gap-5 pl-1 pt-10 lg:w-[1100px] lg:items-start">
         <h1 className=" font-Bodoni text-3xl font-bold text-brand-secondary-800 drop-shadow-lg lg:text-left lg:text-6xl">
           Dra. Karine Freire
         </h1>
-        <h1 className="font-Philosopher text-center text-3xl font-bold text-brand-primary-100 drop-shadow-lg lg:text-left lg:text-5xl">
+        <h1 className="text-center font-Philosopher text-3xl font-bold text-brand-primary-100 drop-shadow-lg lg:text-left lg:text-5xl">
           Fisioterapia Dermatofuncional
         </h1>
         <p className="max-w-lg text-center text-sm lg:text-left lg:text-base">
