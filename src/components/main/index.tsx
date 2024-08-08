@@ -12,8 +12,8 @@ export function Main() {
               alt="Journey"
               className="inline-block h-8 w-8 rounded-full object-cover lg:h-12 lg:w-32"
             />{' '}
-            para a beleza e a autoconfiança começa aqui. Nosso propósito é
-            formar uma parceria de{' '}
+            para a beleza e a autoconfiança começa aqui. Meu propósito é formar
+            uma parceria de{' '}
             <span className="text-brand-secondary-800">confiança</span>{' '}
             <img
               src="/src/assets/images/estetica-image-1.png"
@@ -78,7 +78,7 @@ export function Main() {
 
           <div className="relative mt-4 flex flex-col items-center justify-between border-y py-10 lg:flex-row">
             <span className="text-4xl font-bold text-brand-secondary-800 sm:text-5xl lg:text-6xl">
-              50+
+              200+
             </span>
             <img
               src="/src/assets/images/icon-ex.png"
@@ -86,7 +86,7 @@ export function Main() {
               className="mt-4 h-16 w-16 sm:h-20 sm:w-20 lg:mt-0"
             />
             <p className="mt-2 text-center text-brand-primary-50 lg:text-left">
-              Pacientes satisfeitos
+              Pacientes Satisfeitos
             </p>
           </div>
 

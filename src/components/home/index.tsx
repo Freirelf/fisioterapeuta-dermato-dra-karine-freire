@@ -5,7 +5,7 @@ import { Button } from '../ui/button'
 export function Home() {
   return (
     <div className=" relative flex flex-col items-center justify-between bg-gradient-to-r from-brand-primary-400 to-brand-primary-600 p-4 lg:flex-row lg:p-8">
-      <div className="z-10 h-[645px] w-full max-w-[484px] shadow-md">
+      <div className="z-10 h-full w-full max-w-[484px] shadow-md lg:h-[645px]">
         <img
           src="/src/assets/images/profile.jpeg"
           alt=""
