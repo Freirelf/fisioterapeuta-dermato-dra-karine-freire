@@ -89,14 +89,14 @@ export function ProfileForm() {
         <form
           ref={formAbout}
           onSubmit={form.handleSubmit(onSubmit)}
-          className="w-1/2 space-y-8 bg-brand-primary-500 p-8"
+          className="w-1/2 space-y-8 bg-brand-primary-700 p-8"
         >
           <FormField
             control={form.control}
             name="username"
             render={({ field }) => (
               <FormItem>
-                <FormLabel className="text-brand-primary-50">Nome</FormLabel>
+                <FormLabel className="text-brand-primary-100">Nome</FormLabel>
                 <FormControl>
                   <Input placeholder="Ex: Marta Nogueira" {...field} />
                 </FormControl>
@@ -109,7 +109,7 @@ export function ProfileForm() {
             name="email"
             render={({ field }) => (
               <FormItem>
-                <FormLabel className="text-brand-primary-50">Email</FormLabel>
+                <FormLabel className="text-brand-primary-100">Email</FormLabel>
                 <FormControl>
                   <Input placeholder="seuemail@gmail.com" {...field} />
                 </FormControl>
@@ -122,7 +122,9 @@ export function ProfileForm() {
             name="phone"
             render={({ field }) => (
               <FormItem>
-                <FormLabel className="text-brand-primary-50">Celular</FormLabel>
+                <FormLabel className="text-brand-primary-100">
+                  Celular
+                </FormLabel>
                 <FormControl>
                   <Input placeholder="85 99999-9999" {...field} />
                 </FormControl>
@@ -135,14 +137,14 @@ export function ProfileForm() {
             name="service"
             render={({ field }) => (
               <FormItem>
-                <FormLabel className="text-brand-primary-50">
+                <FormLabel className="text-brand-primary-100">
                   Especialidades
                 </FormLabel>
                 <FormControl>
                   <Select onValueChange={field.onChange} value={field.value}>
                     <SelectTrigger className="w-full">
                       <SelectValue
-                        className="text-brand-primary-50"
+                        className="text-brand-primary-100"
                         placeholder="Seleciona a especialidade"
                       />
                     </SelectTrigger>
@@ -167,7 +169,7 @@ export function ProfileForm() {
             name="description"
             render={({ field }) => (
               <FormItem>
-                <FormLabel className="text-brand-primary-50">
+                <FormLabel className="text-brand-primary-100">
                   Descrição
                 </FormLabel>
                 <FormControl>
@@ -181,7 +183,7 @@ export function ProfileForm() {
             )}
           />
           <Button
-            className="mx-auto mt-8 block w-full bg-brand-primary-600 hover:bg-brand-primary-600/90"
+            className="mx-auto mt-8 block w-full bg-brand-primary-900 hover:bg-brand-primary-900/90"
             type="submit"
           >
             Enviar

@@ -65,14 +65,14 @@ export function Header({ onToggleMenu }: HeaderProps) {
           </a>
           {isOpen && (
             <div className="mt-4 flex w-full justify-center lg:hidden">
-              <Button className="bg-brand-primary-600 text-sm uppercase hover:bg-brand-primary-200/90 lg:text-base">
+              <Button className="bg-brand-primary-900 text-sm uppercase hover:bg-brand-primary-900/90 lg:text-base">
                 + Info
               </Button>
             </div>
           )}
         </nav>
         <div className="hidden items-center gap-2 lg:flex">
-          <Button className="bg-brand-primary-600 text-sm uppercase hover:bg-brand-primary-200/90 lg:text-base">
+          <Button className="bg-brand-primary-900 text-sm uppercase hover:bg-brand-primary-900/90 lg:text-base">
             + Info
           </Button>
         </div>

@@ -2,6 +2,7 @@ import { useState } from 'react'
 
 import { About } from './components/about'
 import { Form } from './components/contact'
+import { Footer } from './components/footer'
 import { Header } from './components/header'
 import { Home } from './components/home'
 import { Main } from './components/main'
@@ -25,6 +26,7 @@ export function App() {
       <Services />
       <About />
       <Form />
+      <Footer />
     </div>
   )
 }

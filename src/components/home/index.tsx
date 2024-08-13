@@ -19,7 +19,7 @@ export function Home() {
       />
 
       <div className="z-50 flex w-full max-w-[985px] flex-col items-center gap-5 pl-1 pt-10 lg:w-[1100px] lg:items-start">
-        <h1 className=" font-Bodoni text-3xl font-bold text-brand-secondary-800 drop-shadow-lg lg:text-left lg:text-6xl">
+        <h1 className=" font-Bodoni text-3xl font-bold text-brand-primary-900  drop-shadow-lg lg:text-left lg:text-6xl">
           Dra. Karine Freire
         </h1>
         <h1 className="text-center font-Philosopher text-3xl font-bold text-brand-primary-100 drop-shadow-lg lg:text-left lg:text-5xl">
@@ -32,10 +32,10 @@ export function Home() {
           eveniet aut quia quaerat.
         </p>
         <div className="flex flex-col gap-4 lg:flex-row">
-          <Button className="bg-brand-secondary-800 text-sm uppercase hover:bg-brand-secondary-800/90 lg:text-base">
+          <Button className="bg-brand-primary-900  text-sm hover:bg-brand-primary-900/90 lg:text-base">
             Agende sua consulta
           </Button>
-          <Button className=" bg-brand-primary-100 text-sm uppercase text-brand-secondary-800 hover:bg-brand-primary-200/90 lg:text-base">
+          <Button className=" bg-brand-primary-100 text-sm text-brand-primary-900  hover:bg-brand-primary-100/90 lg:text-base">
             <a href="" className="flex items-center gap-3">
               Conheça mais.. <Instagram />
             </a>
