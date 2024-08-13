@@ -16,8 +16,7 @@ export function Services() {
 
   return (
     <>
-      {' '}
-      <div className="container mx-auto mt-28 max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto mt-28 max-w-7xl px-4 pb-8 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center justify-between space-y-8 lg:flex-row lg:space-x-8 lg:space-y-0">
           <div className="relative w-full flex-1 lg:w-1/2">
             <h1 className="lg:left absolute top-60 w-full font-Philosopher text-xl font-bold text-brand-primary-50 lg:top-80 lg:w-80 lg:text-2xl">
@@ -59,21 +58,21 @@ export function Services() {
             </Button>
           </div>
         </div>
-        <div className="lg:my-20 lg:px-8">
+        <div className="py-8 lg:my-20 lg:px-8">
           <h1 className="mx-auto block max-w-2xl py-8 text-center font-Philosopher text-2xl font-bold text-brand-primary-50 lg:text-3xl">
             Acredito que a verdadeira beleza vem de dentro. É como{' '}
             <span className="text-brand-secondary-800">você se sente..</span>
           </h1>
-          <div className="grid grid-cols-1 lg:my-20 lg:h-[480px] lg:grid-cols-2 ">
+          <div className="grid grid-cols-1 gap-4 lg:my-20 lg:grid-cols-2 ">
             {visibleServices.map((service, index) => (
               <CardServices key={index} {...service} />
             ))}
             <div className="col-span-full mt-8 flex justify-center">
               <Button
                 onClick={handleShowMore}
-                className="bg-brand-primary-600 uppercase hover:bg-brand-primary-600/90"
+                className="bg-brand-primary-600 hover:bg-brand-primary-600/90"
               >
-                {visibleCardServices ? 'Recolher' : 'Todas especialidades'}
+                {visibleCardServices ? 'Recolher' : 'Todas Especialidades'}
               </Button>
             </div>
           </div>

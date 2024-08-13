@@ -20,6 +20,9 @@ module.exports = {
         Bodoni: ['Bodoni Moda, serif'],
         Philosopher: ['Philosopher, sans-serif'],
       },
+      backgroundImage: {
+        bgImageAbout: "url('/src/assets/images/image-about-bg.png')",
+      },
       screens: {
         sm: '640px',
         md: '768px',
@@ -76,6 +79,7 @@ module.exports = {
         },
         'brand-secondary': {
           50: '#F5EBF4',
+          60: '#eeafb726',
           100: '#EAD7EA',
           200: '#FC973F',
           300: '#FC783F',
