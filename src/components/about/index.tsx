@@ -1,6 +1,6 @@
 export function About() {
   return (
-    <div className="container mx-auto  max-w-7xl sm:px-6 lg:px-8">
+    <div id="about" className="container mx-auto  max-w-7xl sm:px-6 lg:px-8">
       <div className="container my-2 flex flex-col items-center gap-4 border-b p-4 lg:flex-row lg:items-center lg:border-none">
         <div className="flex flex-col gap-4 lg:w-1/2">
           <h1 className="font-Philosopher text-lg font-semibold text-brand-secondary-800 lg:text-2xl">

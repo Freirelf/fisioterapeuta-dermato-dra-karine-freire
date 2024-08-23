@@ -27,7 +27,7 @@ export function Footer() {
           </h2>
           <div className="mb-6 flex items-center justify-center space-x-6">
             <a
-              href="https://www.instagram.com"
+              href="https://www.instagram.com/karinefreiree"
               target="_blank"
               rel="noopener noreferrer"
               className="text-brand-secondary-500 hover:text-brand-secondary-500/90"
@@ -43,7 +43,7 @@ export function Footer() {
               <Facebook size={32} />
             </a>
             <a
-              href="https://www.whatsapp.com"
+              href="https://wa.me/85986681994?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informações"
               target="_blank"
               rel="noopener noreferrer"
               className="text-brand-secondary-500 hover:text-brand-secondary-500/90"
@@ -53,7 +53,7 @@ export function Footer() {
           </div>
           <div className="flex flex-col items-center justify-center gap-4 text-center sm:flex-row sm:gap-8 sm:text-left">
             <a
-              href="https://www.instagram.com"
+              href="https://www.google.com/maps/dir//Av.+Penetra%C3%A7%C3%A3o+Norte,+115+-+apt+101+-+Conj.+Esperan%C3%A7a,+Fortaleza+-+CE,+60763-420/@-3.8150086,-38.6698571,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x7c74deb0806e233:0x4960ead04a603a9e!2m2!1d-38.5874738!2d-3.8150317?entry=ttu&g_ep=EgoyMDI0MDgyMC4xIKXMDSoASAFQAw%3D%3D"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-brand-primary-100 hover:text-brand-secondary-500"
@@ -61,6 +61,7 @@ export function Footer() {
               <MapPin size={24} />
               <span>Clínica Integrada Esperança</span>
             </a>
+
             <a
               href="mailto:karinefreirefisio@gmail.com"
               className="flex items-center gap-2 text-brand-primary-100 hover:text-brand-secondary-500"
@@ -68,8 +69,11 @@ export function Footer() {
               <Mail size={24} />
               <span>karinelopes_freire@hotmail.com</span>
             </a>
+
             <a
-              href="tel:+558599915558"
+              href="tel:+5585992745571"
+              target="_blank"
+              rel="noopener noreferrer"
               className="flex items-center gap-2 text-brand-primary-100 hover:text-brand-secondary-500"
             >
               <PhoneCall size={24} />
@@ -83,7 +87,7 @@ export function Footer() {
         <img
           src="/src/assets/images/background.png"
           alt=""
-          className="absolute bottom-0 right-0"
+          className="absolute bottom-0 right-0 hidden lg:block"
         />
       </div>
     </footer>

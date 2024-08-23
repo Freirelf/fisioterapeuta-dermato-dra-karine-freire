@@ -4,7 +4,10 @@ import { Button } from '../ui/button'
 
 export function Home() {
   return (
-    <div className=" relative flex flex-col items-center justify-between bg-gradient-to-r from-brand-primary-400 to-brand-secondary-400 p-4 lg:flex-row lg:p-0">
+    <div
+      id="home"
+      className=" relative flex flex-col items-center justify-between bg-gradient-to-r from-brand-primary-400 to-brand-secondary-400 p-4 lg:flex-row lg:p-0"
+    >
       <div className="z-10 h-full w-full max-w-[484px] lg:h-[645px]">
         <img
           src="/src/assets/images/profile-s.png"
@@ -36,10 +39,21 @@ export function Home() {
         </p>
         <div className="flex flex-col gap-4 lg:flex-row">
           <Button className="bg-brand-primary-800  text-sm hover:bg-brand-primary-800/90 lg:text-base">
-            Agende sua consulta
+            <a
+              href="https://wa.me/85986681994?text=Ol%C3%A1%2C%20gostaria%20de%20marcar%20uma%20consulta"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Agende sua consulta
+            </a>
           </Button>
           <Button className=" bg-brand-primary-500 text-sm text-brand-primary-900  hover:bg-brand-primary-100/90 lg:text-base">
-            <a href="" className="flex items-center gap-3">
+            <a
+              href="https://www.instagram.com/karinefreiree"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3"
+            >
               Conheça mais.. <Instagram />
             </a>
           </Button>

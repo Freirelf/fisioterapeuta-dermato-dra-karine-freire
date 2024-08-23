@@ -16,7 +16,10 @@ export function Services() {
 
   return (
     <>
-      <div className="container mx-auto mt-28 max-w-7xl px-4 pb-8 sm:px-6 lg:px-8">
+      <div
+        id="services"
+        className="container mx-auto mt-28 max-w-7xl px-4 pb-8 sm:px-6 lg:px-8"
+      >
         <div className="flex flex-col items-center justify-between space-y-8 lg:flex-row lg:space-x-8 lg:space-y-0">
           <div className="relative w-full flex-1 lg:w-1/2">
             <h1 className="lg:left absolute top-60 w-full font-Philosopher text-xl font-bold text-brand-primary-50 lg:top-80 lg:w-80 lg:text-2xl">
@@ -53,8 +56,13 @@ export function Services() {
               de você. Confie sua beleza às mãos de quem entende do assunto.
             </p>
             <Button className="mx-auto mt-4 block bg-brand-secondary-500 hover:bg-brand-secondary-500/90">
-              {' '}
-              Agendar{' '}
+              <a
+                href="https://wa.me/85986681994?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informações"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Agendar
+              </a>
             </Button>
           </div>
         </div>

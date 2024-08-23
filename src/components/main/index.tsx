@@ -3,7 +3,10 @@ import { Button } from '../ui/button'
 export function Main() {
   return (
     <>
-      <main className="mt-14 flex items-center justify-center p-4 lg:mt-28">
+      <main
+        id="treatment"
+        className="mt-14 flex items-center justify-center p-4 lg:mt-28"
+      >
         <section className="max-w-7xl text-center">
           <h1 className="leading-wider font-Philosopher text-2xl font-bold text-brand-primary-50 lg:text-5xl">
             Sua <span className="text-brand-secondary-800">jornada</span>{' '}
@@ -91,7 +94,13 @@ export function Main() {
           </div>
 
           <Button className="mx-auto mt-8 block bg-brand-secondary-500 text-sm hover:bg-brand-secondary-500/90">
-            <a href="#">Entre em contato</a>
+            <a
+              href="https://wa.me/85986681994?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informações"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Entre em contato
+            </a>
           </Button>
         </div>
       </section>
