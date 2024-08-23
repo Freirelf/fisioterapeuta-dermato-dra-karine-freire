@@ -201,7 +201,7 @@ export function ProfileForm() {
       <form
         method="POST"
         action="https://formsubmit.co/freirelf06@gmail.com"
-        className="w-full max-w-2xl space-y-8 rounded-lg bg-brand-primary-700 p-8"
+        className="w-full max-w-2xl space-y-8 rounded-lg bg-brand-secondary-500 p-8"
       >
         {/* <input
         type="hidden"
@@ -278,7 +278,7 @@ export function ProfileForm() {
         </fieldset>
         <div className="">
           <Button
-            className="w-full bg-brand-primary-900  text-sm hover:bg-brand-primary-900/90 lg:text-base"
+            className="w-full bg-brand-primary-500  text-sm text-brand-primary-900 hover:bg-brand-primary-500/90 lg:text-base"
             type="submit"
           >
             Enviar

@@ -17,7 +17,7 @@ export function Header({ onToggleMenu }: HeaderProps) {
   }
 
   return (
-    <div className="relative border-b border-brand-primary-800 bg-brand-primary-500">
+    <div className="relative border-b border-brand-primary-800 bg-gradient-to-r from-brand-primary-400 to-brand-secondary-400">
       <div className="flex items-center justify-between px-6">
         <div className="border-r border-brand-primary-800 pr-4">
           <img
@@ -37,7 +37,7 @@ export function Header({ onToggleMenu }: HeaderProps) {
         <nav
           className={`${
             isOpen ? 'block' : 'hidden'
-          } absolute left-0 right-0 top-16 z-50 border-y border-brand-primary-800 bg-brand-primary-500 p-4 text-center text-sm uppercase tracking-wide text-brand-primary-800 lg:static lg:flex lg:items-center lg:gap-40 lg:space-x-4 lg:border-none lg:text-base`}
+          } absolute left-0 right-0 top-16 z-50 rounded border-y border-brand-primary-800 bg-brand-primary-500 p-4 text-center text-sm uppercase tracking-wide text-brand-primary-800 shadow-lg lg:static lg:flex lg:items-center lg:gap-40 lg:space-x-4 lg:border-none lg:text-base`}
         >
           <a
             className="block py-2 hover:text-brand-primary-900 lg:py-0"
@@ -72,7 +72,7 @@ export function Header({ onToggleMenu }: HeaderProps) {
           )}
         </nav>
         <div className="hidden items-center gap-2 lg:flex">
-          <Button className="bg-brand-primary-900 text-sm uppercase hover:bg-brand-primary-900/90 lg:text-base">
+          <Button className="bg-brand-primary-500 text-sm uppercase text-brand-primary-800 hover:bg-brand-primary-500/90 lg:text-base">
             + Info
           </Button>
         </div>

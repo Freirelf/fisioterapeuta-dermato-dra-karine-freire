@@ -2,91 +2,91 @@ export const services = [
   {
     title: 'Limpeza de pele',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet non velit, nemo ratione quos temporibus voluptate ipsam autem asperiores laborum odit alias impedit molestiae quibusdam',
+      'Procedimento e essencial que remove células mortas, cravos, e impurezas acumuladas na pele. Além de promover a renovação celular, melhora a textura, desobstrui os poros e prepara a pele para receber outros tratamentos.',
     image: '/src/assets/images/image-epcd.png',
   },
   {
     title: 'Microagulhamento',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet non velit, nemo ratione quos temporibus voluptate ipsam autem asperiores laborum odit alias impedit molestiae quibusdam',
-    image: '/src/assets/images/image-epcd.png',
+      'Técnica que utiliza pequenas agulhas para criar microlesões na pele, estimulando a produção de colágeno e elastina. Esse processo ajuda a melhorar a textura da pele, reduzir cicatrizes de acne, manchas e linhas finas.',
+    image: '/src/assets/images/limpeza-pele.png',
   },
   {
     title: 'Peeling de Ouro',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet non velit, nemo ratione quos temporibus voluptate ipsam autem asperiores laborum odit alias impedit molestiae quibusdam',
-    image: '/src/assets/images/image-epcd.png',
+      'Um tratamento sofisticado que combina micropartículas de ouro com ácidos, promovendo uma renovação celular intensa, clareamento de manchas, e rejuvenescimento da pele. O ouro tem propriedades anti-inflamatórias e antioxidantes, contribuindo para uma pele mais luminosa e uniforme.',
+    image: '/src/assets/images/microagulhamento.png',
   },
   {
     title: 'Skinbooter',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet non velit, nemo ratione quos temporibus voluptate ipsam autem asperiores laborum odit alias impedit molestiae quibusdam',
-    image: '/src/assets/images/image-epcd.png',
+      'Tratamento injetável que hidrata profundamente a pele, utilizando ácido hialurônico. Ele melhora a textura, luminosidade e elasticidade da pele, suavizando rugas finas e linhas de expressão.',
+    image: '/src/assets/images/skinbooter.png',
   },
   {
     title: 'Botox',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet non velit, nemo ratione quos temporibus voluptate ipsam autem asperiores laborum odit alias impedit molestiae quibusdam',
-    image: '/src/assets/images/image-epcd.png',
+      'Aplicação de toxina botulínica para relaxar músculos específicos, prevenindo e suavizando rugas e linhas de expressão. O tratamento proporciona um aspecto mais jovem e descansado, sem perder a naturalidade.',
+    image: '/src/assets/images/botox.png',
   },
   {
     title: 'Enzimas Redutoras',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet non velit, nemo ratione quos temporibus voluptate ipsam autem asperiores laborum odit alias impedit molestiae quibusdam',
-    image: '/src/assets/images/image-epcd.png',
+      'Injeção de enzimas que ajudam a quebrar as células de gordura localizada, facilitando sua eliminação pelo organismo. Este tratamento é ideal para áreas onde a gordura é mais resistente à dieta e ao exercício.',
+    image: '/src/assets/images/enzimas-redutora.png',
   },
   {
     title: 'Enzimas para Celulite',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet non velit, nemo ratione quos temporibus voluptate ipsam autem asperiores laborum odit alias impedit molestiae quibusdam',
-    image: '/src/assets/images/image-epcd.png',
+      'Aplicação de enzimas que agem diretamente nos nódulos de gordura, melhorando a circulação e reduzindo a aparência da celulite. O tratamento suaviza a pele e melhora sua textura.',
+    image: '/src/assets/images/enzimas-celulite.png',
   },
   {
     title: 'Enzimas para Flacidez',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet non velit, nemo ratione quos temporibus voluptate ipsam autem asperiores laborum odit alias impedit molestiae quibusdam',
-    image: '/src/assets/images/image-epcd.png',
+      'Tratamento que utiliza enzimas que estimulam a produção de colágeno e elastina, promovendo a firmeza e tonificação da pele. Ele combate a flacidez em áreas como rosto, pescoço, braços, e abdômen.',
+    image: '/src/assets/images/enzima-flacidez.png',
   },
   {
     title: 'Harmonização Glútea',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet non velit, nemo ratione quos temporibus voluptate ipsam autem asperiores laborum odit alias impedit molestiae quibusdam',
-    image: '/src/assets/images/image-epcd.png',
+      'Procedimento estético que visa aumentar e modelar os glúteos através da aplicação de bioestimuladores de colágeno ou ácido hialurônico. Proporciona volume, definição e um contorno mais harmônico dos glúteos.',
+    image: '/src/assets/images/enzima-celuliteglutea.png',
   },
   {
     title: 'Hidrolipo',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet non velit, nemo ratione quos temporibus voluptate ipsam autem asperiores laborum odit alias impedit molestiae quibusdam',
-    image: '/src/assets/images/image-epcd.png',
+      'Técnica minimamente invasiva que consiste na aplicação de substâncias que promovem a quebra da gordura localizada, facilitando sua eliminação pelo organismo. É uma alternativa menos agressiva à lipoaspiração tradicional.',
+    image: '/src/assets/images/hidrolipo.png',
   },
   {
     title: 'Bioestimulador de Colágeno',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet non velit, nemo ratione quos temporibus voluptate ipsam autem asperiores laborum odit alias impedit molestiae quibusdam',
-    image: '/src/assets/images/image-epcd.png',
+      'Procedimento injetável que estimula a produção natural de colágeno pelo corpo, melhorando a firmeza, elasticidade e textura da pele. Ele é usado para combater sinais de envelhecimento e flacidez.',
+    image: '/src/assets/images/bioestimulador.png',
   },
   {
     title: 'Eletrolipólise',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet non velit, nemo ratione quos temporibus voluptate ipsam autem asperiores laborum odit alias impedit molestiae quibusdam',
-    image: '/src/assets/images/image-epcd.png',
+      'écnica que utiliza correntes elétricas de baixa frequência para estimular a quebra das células de gordura, auxiliando na redução de medidas e na melhora do contorno corporal.',
+    image: '/src/assets/images/eletrolopolise.png',
   },
   {
-    title: 'Drenagem',
+    title: 'Drenagem Linfática',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet non velit, nemo ratione quos temporibus voluptate ipsam autem asperiores laborum odit alias impedit molestiae quibusdam',
-    image: '/src/assets/images/image-epcd.png',
+      'Massagem que estimula o sistema linfático a eliminar toxinas e excesso de líquidos, reduzindo inchaço, celulite e melhorando a circulação sanguínea. É frequentemente recomendada no pós-operatório.',
+    image: '/src/assets/images/drenagem.png',
   },
   {
     title: 'Tapping',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet non velit, nemo ratione quos temporibus voluptate ipsam autem asperiores laborum odit alias impedit molestiae quibusdam',
-    image: '/src/assets/images/image-epcd.png',
+      'Técnica que utiliza bandagens elásticas aplicadas sobre a pele para oferecer suporte muscular, melhorar a circulação, e auxiliar na recuperação de lesões ou pós-operatório. Também é usada em tratamentos estéticos para potencializar resultados.',
+    image: '/src/assets/images/tapping.png',
   },
   {
     title: 'Pré e Pós Operatório',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet non velit, nemo ratione quos temporibus voluptate ipsam autem asperiores laborum odit alias impedit molestiae quibusdam',
-    image: '/src/assets/images/image-epcd.png',
+      'Cuidados especializados que preparam o corpo para cirurgias estéticas e aceleram a recuperação no pós-operatório, minimizando inchaços, hematomas, e acelerando a cicatrização.',
+    image: '/src/assets/images/pre-pos.png',
   },
 ]

@@ -11,13 +11,18 @@ import { CarouselSpacing } from './carousel'
 
 export function Footer() {
   return (
-    <footer className="h-full bg-gradient-to-r from-brand-primary-700 to-brand-primary-750 lg:pt-28">
+    <footer className="relative h-full bg-gradient-to-r from-brand-primary-400 to-brand-secondary-400 lg:pt-28">
+      <img
+        src="/src/assets/images/background-2.png"
+        alt=""
+        className="absolute hidden lg:bottom-0 lg:left-0 lg:block"
+      />
       <div className="container mx-auto flex flex-col justify-center px-4 py-10 text-center">
         <div className="flex w-full items-center justify-center">
           <CarouselSpacing />
         </div>
         <div className="mt-6">
-          <h2 className="mb-4 text-lg font-semibold text-brand-primary-100">
+          <h2 className="mb-4 font-Philosopher text-2xl font-semibold text-brand-primary-100">
             Acompanhe-nos nas redes sociais
           </h2>
           <div className="mb-6 flex items-center justify-center space-x-6">
@@ -25,7 +30,7 @@ export function Footer() {
               href="https://www.instagram.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-brand-primary-700 hover:text-brand-primary-300"
+              className="text-brand-secondary-500 hover:text-brand-secondary-500/90"
             >
               <Instagram size={32} />
             </a>
@@ -33,7 +38,7 @@ export function Footer() {
               href="https://www.facebook.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-brand-primary-700 hover:text-brand-primary-300"
+              className="text-brand-secondary-500 hover:text-brand-secondary-500/90"
             >
               <Facebook size={32} />
             </a>
@@ -41,7 +46,7 @@ export function Footer() {
               href="https://www.whatsapp.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-brand-primary-700 hover:text-brand-primary-300"
+              className="text-brand-secondary-500 hover:text-brand-secondary-500/90"
             >
               <MessageCircleQuestion size={32} />
             </a>
@@ -51,21 +56,21 @@ export function Footer() {
               href="https://www.instagram.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 text-brand-primary-100 hover:text-brand-primary-300"
+              className="flex items-center gap-2 text-brand-primary-100 hover:text-brand-secondary-500"
             >
               <MapPin size={24} />
               <span>Clínica Integrada Esperança</span>
             </a>
             <a
               href="mailto:karinefreirefisio@gmail.com"
-              className="flex items-center gap-2 text-brand-primary-100 hover:text-brand-primary-300"
+              className="flex items-center gap-2 text-brand-primary-100 hover:text-brand-secondary-500"
             >
               <Mail size={24} />
               <span>karinelopes_freire@hotmail.com</span>
             </a>
             <a
               href="tel:+558599915558"
-              className="flex items-center gap-2 text-brand-primary-100 hover:text-brand-primary-300"
+              className="flex items-center gap-2 text-brand-primary-100 hover:text-brand-secondary-500"
             >
               <PhoneCall size={24} />
               <span>(85) 99274-5571</span>
@@ -75,6 +80,11 @@ export function Footer() {
         <p className="mt-6 text-brand-primary-100">
           LFSolutions © 2024 - Todos os direitos reservados.
         </p>
+        <img
+          src="/src/assets/images/background.png"
+          alt=""
+          className="absolute bottom-0 right-0"
+        />
       </div>
     </footer>
   )

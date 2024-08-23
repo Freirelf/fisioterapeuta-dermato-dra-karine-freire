@@ -21,8 +21,8 @@ export function Services() {
           <div className="relative w-full flex-1 lg:w-1/2">
             <h1 className="lg:left absolute top-60 w-full font-Philosopher text-xl font-bold text-brand-primary-50 lg:top-80 lg:w-80 lg:text-2xl">
               Mergulhe em um universo de{' '}
-              <span className="text-brand-primary-900">bem-estar</span> em nosso
-              consultório.
+              <span className="text-brand-secondary-800">bem-estar</span> em
+              nosso consultório.
             </h1>
             <img
               src="/src/assets/images/image-estetica-service.png"
@@ -44,24 +44,24 @@ export function Services() {
             />
             <h1 className="mt-4 font-Philosopher text-2xl font-bold text-brand-primary-50 lg:text-3xl ">
               Revele a sua{' '}
-              <span className="text-brand-primary-900">beleza natural</span> com
-              a renomada especialista Dra.{' '}
-              <span className="text-brand-primary-900">Karine Freire.</span>
+              <span className="text-brand-secondary-800">beleza natural</span>{' '}
+              com a renomada especialista Dra.{' '}
+              <span className="text-brand-secondary-800">Karine Freire.</span>
             </h1>
             <p className="mt-4 text-brand-primary-50">
               Experimente tratamentos personalizados e descubra uma nova versão
               de você. Confie sua beleza às mãos de quem entende do assunto.
             </p>
-            <Button className="mx-auto mt-4 block bg-brand-primary-900 hover:bg-brand-primary-900/90">
+            <Button className="mx-auto mt-4 block bg-brand-secondary-500 hover:bg-brand-secondary-500/90">
               {' '}
               Agendar{' '}
             </Button>
           </div>
         </div>
-        <div className="py-8 lg:my-20 lg:px-8">
+        <div className="lg:my-20 lg:px-8">
           <h1 className="mx-auto block max-w-2xl py-8 text-center font-Philosopher text-2xl font-bold text-brand-primary-50 lg:text-3xl">
             Acredito que a verdadeira beleza vem de dentro. É como{' '}
-            <span className="text-brand-primary-900">você se sente..</span>
+            <span className="text-brand-secondary-800">você se sente..</span>
           </h1>
           <div className="grid grid-cols-1 gap-4 lg:my-20 lg:grid-cols-2 ">
             {visibleServices.map((service, index) => (
@@ -70,7 +70,7 @@ export function Services() {
             <div className="col-span-full mt-8 flex justify-center">
               <Button
                 onClick={handleShowMore}
-                className="bg-brand-primary-900 hover:bg-brand-primary-900/90"
+                className="bg-brand-secondary-500 hover:bg-brand-secondary-500/90"
               >
                 {visibleCardServices ? 'Recolher' : 'Todas Especialidades'}
               </Button>
