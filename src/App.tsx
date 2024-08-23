@@ -1,6 +1,7 @@
 import { useState } from 'react'
 
 import { About } from './components/about'
+import BackToTopButton from './components/BackToTopButton.tsx'
 import { Form } from './components/contact'
 import { Footer } from './components/footer'
 import { Header } from './components/header'
@@ -27,6 +28,7 @@ export function App() {
       <About />
       <Form />
       <Footer />
+      <BackToTopButton />
     </div>
   )
 }
