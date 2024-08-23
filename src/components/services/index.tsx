@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 
 import { services } from '@/lib/mocks'
 
@@ -8,8 +8,16 @@ import { CardServices } from './cardServices'
 export function Services() {
   const [visibleCardServices, setVisibleCardServices] = useState(false)
 
+  const cardsContainerRef = useRef<HTMLDivElement | null>(null)
   const handleShowMore = () => {
     setVisibleCardServices(!visibleCardServices)
+  }
+
+  if (visibleCardServices) {
+    cardsContainerRef.current?.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+    })
   }
 
   const visibleServices = visibleCardServices ? services : services.slice(0, 4)
@@ -71,7 +79,7 @@ export function Services() {
             Acredito que a verdadeira beleza vem de dentro. É como{' '}
             <span className="text-brand-secondary-800">você se sente..</span>
           </h1>
-          <div className="grid grid-cols-1 gap-4 lg:my-20 lg:grid-cols-2 ">
+          <div className="ref={cardsContainerRef} grid grid-cols-1 gap-4 lg:my-20 lg:grid-cols-2">
             {visibleServices.map((service, index) => (
               <CardServices key={index} {...service} />
             ))}
