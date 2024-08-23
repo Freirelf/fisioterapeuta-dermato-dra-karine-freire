@@ -23,7 +23,7 @@ export function About() {
         </div>
         <div className="flex w-[50%] justify-center lg:justify-end">
           <img
-            src="/src/assets/images/image-about-2.jpeg"
+            src="images/image-about-2.jpeg"
             alt=""
             className="w-[60%] rounded-lg lg:rounded-l-full"
           />
@@ -33,7 +33,7 @@ export function About() {
       <div className="container my-2 flex flex-col items-center gap-4 border-b bg-brand-secondary-60 p-4 lg:flex-row lg:items-center lg:border-none">
         <div className="flex w-[50%] justify-center lg:justify-start">
           <img
-            src="/src/assets/images/image-about.jpeg"
+            src="images/image-about.jpeg"
             alt=""
             className="w-[60%] rounded-lg lg:rounded-r-full"
           />

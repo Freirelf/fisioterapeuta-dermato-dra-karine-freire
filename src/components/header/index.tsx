@@ -21,7 +21,7 @@ export function Header({ onToggleMenu }: HeaderProps) {
       <div className="flex items-center justify-between px-6">
         <div className="border-r border-brand-primary-800 pr-4">
           <img
-            src="/src/assets/images/logotipo.png"
+            src="images/logotipo.png"
             alt="Logotipo"
             className="w-1/2 py-1 lg:w-full"
           />

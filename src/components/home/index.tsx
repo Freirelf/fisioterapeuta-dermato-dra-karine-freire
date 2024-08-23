@@ -10,13 +10,13 @@ export function Home() {
     >
       <div className="z-10 h-full w-full max-w-[484px] lg:h-[645px]">
         <img
-          src="/src/assets/images/profile-s.png"
+          src="images/profile-s.png"
           alt=""
           className="z-0 h-full w-full rounded-md object-cover"
         />
       </div>
       <img
-        src="/src/assets/images/background-2.png"
+        src="images/background-2.png"
         alt=""
         className="absolute hidden lg:bottom-0 lg:left-80 lg:block"
       />
@@ -59,11 +59,7 @@ export function Home() {
           </Button>
         </div>
       </div>
-      <img
-        src="/src/assets/images/background.png"
-        alt=""
-        className="absolute right-0"
-      />
+      <img src="images/background.png" alt="" className="absolute right-0" />
     </div>
   )
 }

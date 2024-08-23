@@ -11,7 +11,7 @@ export function Main() {
           <h1 className="leading-wider font-Philosopher text-2xl font-bold text-brand-primary-50 lg:text-5xl">
             Sua <span className="text-brand-secondary-800">jornada</span>{' '}
             <img
-              src="/src/assets/images/estetica-image.png"
+              src="images/estetica-image.png"
               alt="Journey"
               className="inline-block h-8 w-8 rounded-full object-cover lg:h-12 lg:w-32"
             />{' '}
@@ -19,14 +19,14 @@ export function Main() {
             uma parceria de{' '}
             <span className="text-brand-secondary-800">confiança</span>{' '}
             <img
-              src="/src/assets/images/estetica-image-1.png"
+              src="images/estetica-image-1.png"
               alt="Trusted"
               className="inline-block h-8 w-8 rounded-full object-cover lg:h-12 lg:w-36"
             />{' '}
             para descobrir o{' '}
             <span className="text-brand-secondary-800">segredo</span>{' '}
             <img
-              src="/src/assets/images/estetica-image-2.png"
+              src="images/estetica-image-2.png"
               alt="Both"
               className="inline-block h-8 w-8 rounded-full object-cover lg:h-12 lg:w-32"
             />{' '}
@@ -42,7 +42,7 @@ export function Main() {
               06+
             </span>
             <img
-              src="/src/assets/images/estetica-image-3.png"
+              src="images/estetica-image-3.png"
               alt="Branch In World"
               className="mt-4 h-20 w-20 -rotate-12 transform rounded-full sm:h-40 sm:w-40 lg:absolute lg:left-1/2 lg:top-12 lg:h-40 lg:w-64 lg:-translate-x-1/2 lg:-translate-y-1/2"
             />
@@ -56,7 +56,7 @@ export function Main() {
               05+
             </span>
             <img
-              src="/src/assets/images/icon-ex.png"
+              src="images/icon-ex.png"
               alt="Years Of Experience"
               className="mt-4 h-16 w-16 sm:h-20 sm:w-20 lg:mt-0"
             />
@@ -70,7 +70,7 @@ export function Main() {
               08+
             </span>
             <img
-              src="/src/assets/images/estetica-c-image.png"
+              src="images/estetica-c-image.png"
               alt="Professional Surgeon"
               className="mt-4 h-20 w-20 -rotate-12 transform rounded-full sm:h-40 sm:w-40 lg:absolute lg:left-1/2 lg:top-12 lg:h-40 lg:w-64 lg:-translate-x-1/2 lg:-translate-y-1/2"
             />
@@ -84,7 +84,7 @@ export function Main() {
               200+
             </span>
             <img
-              src="/src/assets/images/icon-ex.png"
+              src="images/icon-ex.png"
               alt="Satisfied Customers"
               className="mt-4 h-16 w-16 sm:h-20 sm:w-20 lg:mt-0"
             />

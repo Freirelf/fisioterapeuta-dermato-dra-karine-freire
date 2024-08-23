@@ -8,13 +8,13 @@ import {
 } from '@/components/ui/carousel'
 
 const images = [
-  '/src/assets/images/perfil.jpeg',
-  '/src/assets/images/profile.jpeg',
-  '/src/assets/images/atendimento.jpeg',
-  '/src/assets/images/local.jpeg',
-  '/src/assets/images/image-about-2.jpeg',
-  '/src/assets/images/image-about.jpeg',
-  '/src/assets/images/image-about-bg.png',
+  'images/perfil.jpeg',
+  'images/profile.jpeg',
+  'images/atendimento.jpeg',
+  'images/local.jpeg',
+  'images/image-about-2.jpeg',
+  'images/image-about.jpeg',
+  'images/image-about-bg.png',
 ]
 
 export function CarouselSpacing() {

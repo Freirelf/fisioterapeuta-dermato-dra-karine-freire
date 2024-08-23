@@ -28,12 +28,12 @@ export function Services() {
               nosso consultório.
             </h1>
             <img
-              src="/src/assets/images/image-estetica-service.png"
+              src="images/image-estetica-service.png"
               alt=""
               className="mx-auto rounded-[38%] lg:mx-0"
             />
             <img
-              src="/src/assets/images/fly.png"
+              src="images/fly.png"
               alt=""
               className="absolute left-[80%] top-1 w-28 -translate-x-1/2 transform lg:w-44 "
             />

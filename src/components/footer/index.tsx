@@ -13,7 +13,7 @@ export function Footer() {
   return (
     <footer className="relative h-full bg-gradient-to-r from-brand-primary-400 to-brand-secondary-400 lg:pt-28">
       <img
-        src="/src/assets/images/background-2.png"
+        src="images/background-2.png"
         alt=""
         className="absolute hidden lg:bottom-0 lg:left-0 lg:block"
       />
@@ -85,7 +85,7 @@ export function Footer() {
           LFSolutions © 2024 - Todos os direitos reservados.
         </p>
         <img
-          src="/src/assets/images/background.png"
+          src="images/background.png"
           alt=""
           className="absolute bottom-0 right-0 hidden lg:block"
         />
