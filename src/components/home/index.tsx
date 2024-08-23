@@ -12,7 +12,7 @@ export function Home() {
         <img
           src="images/profile-s.png"
           alt=""
-          className="z-0 h-full w-full rounded-md object-cover"
+          className="z-0 mx-auto mr-4 h-full w-[80%] rounded-md object-cover lg:mr-0 lg:w-full"
         />
       </div>
       <img
@@ -21,14 +21,14 @@ export function Home() {
         className="absolute hidden lg:bottom-0 lg:left-80 lg:block"
       />
 
-      <div className="z-50 flex w-full max-w-[985px] flex-col items-center gap-5 pl-1 pt-10 lg:w-[1100px] lg:items-start">
-        <h1 className=" font-Bodoni text-3xl font-bold text-brand-primary-800  drop-shadow-lg lg:text-left lg:text-7xl">
+      <div className="z-50 flex w-full max-w-[985px] flex-col items-center gap-5 pl-1 pt-4 lg:w-[1100px] lg:items-start lg:pt-10">
+        <h1 className=" font-Bodoni text-3xl font-bold text-brand-primary-800 drop-shadow-lg lg:text-left lg:text-7xl">
           Dra. Karine Freire
         </h1>
-        <h1 className="text-center font-Philosopher text-3xl font-bold text-brand-primary-100 drop-shadow-lg lg:text-left lg:text-5xl">
+        <h1 className="text-center font-Philosopher text-2xl font-bold text-brand-primary-100 drop-shadow-lg lg:text-left lg:text-5xl">
           Fisioterapia Dermatofuncional
         </h1>
-        <h1 className="text-center font-Philosopher text-3xl font-bold text-brand-primary-800  lg:text-left lg:text-3xl">
+        <h1 className="text-center font-Philosopher text-2xl font-bold text-brand-primary-800  lg:text-left lg:text-3xl">
           Tratamentos Personalizados para Resultados Reais
         </h1>
         <p className="max-w-lg text-center text-sm text-brand-primary-100 lg:text-justify lg:text-base lg:tracking-wider">
@@ -40,7 +40,7 @@ export function Home() {
         <div className="flex flex-col gap-4 lg:flex-row">
           <Button className="bg-brand-primary-800  text-sm hover:bg-brand-primary-800/90 lg:text-base">
             <a
-              href="https://wa.me/85986681994?text=Ol%C3%A1%2C%20gostaria%20de%20marcar%20uma%20consulta"
+              href="https://wa.me/+5585986681994?text=Ol%C3%A1%2C%20gostaria%20de%20marcar%20uma%20consulta"
               target="_blank"
               rel="noopener noreferrer"
             >

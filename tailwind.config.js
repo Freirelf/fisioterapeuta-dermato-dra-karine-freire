@@ -21,7 +21,7 @@ module.exports = {
         Philosopher: ['Philosopher, sans-serif'],
       },
       backgroundImage: {
-        bgImageAbout: "url('/src/assets/images/image-about-bg.png')",
+        bgImageAbout: "url('/public/images/image-about-bg.png')",
       },
       screens: {
         sm: '640px',

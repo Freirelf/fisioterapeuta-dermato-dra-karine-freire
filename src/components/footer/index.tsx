@@ -43,7 +43,7 @@ export function Footer() {
               <Facebook size={32} />
             </a>
             <a
-              href="https://wa.me/85986681994?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informações"
+              href="https://wa.me/+5585986681994?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informações"
               target="_blank"
               rel="noopener noreferrer"
               className="text-brand-secondary-500 hover:text-brand-secondary-500/90"
@@ -71,13 +71,13 @@ export function Footer() {
             </a>
 
             <a
-              href="tel:+5585992745571"
+              href="tel:+5585986681994"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-brand-primary-100 hover:text-brand-secondary-500"
             >
               <PhoneCall size={24} />
-              <span>(85) 99274-5571</span>
+              <span>(85) 98668-1994</span>
             </a>
           </div>
         </div>

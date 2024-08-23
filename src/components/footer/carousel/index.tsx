@@ -29,7 +29,7 @@ export function CarouselSpacing() {
                   <img
                     src={src}
                     alt={`Imagem ${index + 1}`}
-                    className="absolute inset-0 h-full w-full object-cover object-top"
+                    className="absolute inset-0 h-full w-full rounded object-cover object-top"
                   />
                 </CardContent>
               </Card>

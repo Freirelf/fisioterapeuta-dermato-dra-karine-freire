@@ -95,7 +95,7 @@ export function Main() {
 
           <Button className="mx-auto mt-8 block bg-brand-secondary-500 text-sm hover:bg-brand-secondary-500/90">
             <a
-              href="https://wa.me/85986681994?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informações"
+              href="https://wa.me/+5585986681994?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informações"
               target="_blank"
               rel="noopener noreferrer"
             >

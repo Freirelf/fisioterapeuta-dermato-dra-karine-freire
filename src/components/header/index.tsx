@@ -37,7 +37,7 @@ export function Header({ onToggleMenu }: HeaderProps) {
         <nav
           className={`${
             isOpen ? 'block' : 'hidden'
-          } absolute left-0 right-0 top-16 z-50 rounded border-y border-brand-primary-800 p-4 text-center text-sm  uppercase tracking-wide text-brand-secondary-400 lg:static lg:flex lg:items-center lg:gap-40 lg:space-x-4 lg:border-none lg:text-base`}
+          } absolute left-0 right-0 top-16 z-50 rounded p-4 text-center text-sm  uppercase tracking-wide text-brand-secondary-400 lg:static lg:flex lg:items-center lg:gap-40 lg:space-x-4 lg:border-none lg:text-base`}
         >
           <a
             className="block py-2 hover:text-brand-primary-800 lg:py-0"
@@ -67,7 +67,7 @@ export function Header({ onToggleMenu }: HeaderProps) {
             <div className="mt-4 flex w-full justify-center lg:hidden">
               <Button className="bg-brand-primary-800 text-sm uppercase hover:bg-brand-primary-800/90 lg:text-base">
                 <a
-                  href="https://wa.me/85986681994?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informações"
+                  href="https://wa.me/+5585986681994?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informações"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -80,7 +80,7 @@ export function Header({ onToggleMenu }: HeaderProps) {
         <div className="hidden items-center gap-2 lg:flex">
           <Button className="bg-brand-primary-800 text-sm uppercase text-brand-primary-100 hover:bg-brand-primary-800/90 lg:text-base">
             <a
-              href="https://wa.me/85986681994?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informações"
+              href="https://wa.me/+5585986681994?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informações"
               target="_blank"
               rel="noopener noreferrer"
             >
